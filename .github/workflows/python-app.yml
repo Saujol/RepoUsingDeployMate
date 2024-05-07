@@ -27,5 +27,3 @@ jobs:
         tenantID: ${{ secrets.TENANTID }}
       run: |
         echo "$ClientID"
-        echo "$Secret"
-        echo "$tenantID"
