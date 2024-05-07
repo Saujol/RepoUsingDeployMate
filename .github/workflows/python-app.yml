@@ -22,9 +22,9 @@ jobs:
     
     - shell: bash
       env:
-        ClientID: ${{ secrets.CliendID }}
-        Secret: ${{ secrets.Secret }}
-        tenantID: ${{ secrets.TenantID }}
+        ClientID: ${{ secrets.CLIENDID }}
+        Secret: ${{ secrets.SECRET }}
+        tenantID: ${{ secrets.TENANTID }}
       run: |
         echo "$ClientID"
         echo "$Secret"
